@@ -5,5 +5,9 @@
   "main": "index.js",
   "repository": "https://github.com/wphestiraid/typechain.git",
   "author": "Flynn <wphestiraid@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "prestart": "tsc",
+    "start": "node index.js"
+  }
 }
