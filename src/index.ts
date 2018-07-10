@@ -96,4 +96,10 @@ const addBlock = (candidateBlock: Block): void => {
   }
 };
 
+createNewBlock('Second Block');
+createNewBlock('Thrid Block');
+createNewBlock('Fourth Block');
+
+console.log(blockchain);
+
 export {};
